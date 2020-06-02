@@ -77,7 +77,7 @@ master_label=Kick
 amplitude_oncc20=200
 pan_oncc27=100
 pan_curvecc27=1
-polyphony=2
+note_polyphony=2
 off_time=1.5
 group=1
 
@@ -99,7 +99,7 @@ master_label=Snare
 amplitude_oncc21=200
 pan_oncc28=100
 pan_curvecc28=1
-polyphony=2
+note_polyphony=2
 off_time=1.5
 group=2
 
@@ -178,7 +178,7 @@ master_label=Tom High
 amplitude_oncc22=200
 pan_oncc29=100
 pan_curvecc29=1
-polyphony=2
+note_polyphony=2
 off_time=2
 
 <group>
@@ -209,7 +209,7 @@ master_label=Tom Low
 amplitude_oncc23=200
 pan_oncc30=100
 pan_curvecc30=1
-polyphony=2
+note_polyphony=2
 off_time=3
 group=5
 
@@ -231,7 +231,7 @@ master_label=Hihat
 amplitude_oncc24=200
 pan_oncc31=100
 pan_curvecc31=1
-polyphony=3
+note_polyphony=3
 off_time=0.3
 
 //-------------------------------------
@@ -318,7 +318,7 @@ master_label=Ride
 amplitude_oncc25=200
 pan_oncc32=100
 pan_curvecc32=1
-polyphony=4
+note_polyphony=4
 off_time=1.7
 
 <group>
@@ -356,7 +356,7 @@ master_label=Crash
 amplitude_oncc26=200
 pan_oncc33=100
 pan_curvecc33=1
-polyphony=4
+note_polyphony=4
 off_time=1.5
 
 <group>
