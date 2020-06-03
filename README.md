@@ -2,7 +2,7 @@
 
 ## Description
 
-From the Sam Green's [original website]:
+From the Sam Greene's [original website]:
 
 > This is my Sonor Force 3001 sampled and painstakingly placed into EXS24.
 There at least 4 velocity levels for each sound. Many more for the snare and kick.
