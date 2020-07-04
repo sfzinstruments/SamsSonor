@@ -236,8 +236,8 @@ off_time=0.3
 
 //-------------------------------------
 <group>
-sample=*silence
 end=-1
+sample=*silence
 <region> key=$KEY_HH_CL group=8
 <region> key=$KEY_HH_CL group=10
 <region> key=$KEY_HH_CL group=12
@@ -348,6 +348,7 @@ group_label=Bell
 <group>
 key=$CHK_RD
 group=15
+ampeg_sustain=0
 group_label=choke
 <region> sample=*silence
 
@@ -386,5 +387,6 @@ group_label=Tip
 <group>
 key=$CHK_CR
 group=18
+ampeg_sustain=0
 group_label=choke
 <region> sample=*silence
