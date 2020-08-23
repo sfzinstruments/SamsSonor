@@ -27,8 +27,8 @@
 #define $KEY_RD_BL 53
 #define $KEY_CR_CL 49
 #define $KEY_CR_TP 52
-#define $CHK_RD 84
-#define $CHK_CR 85
+#define $CHK_RD 60
+#define $CHK_CR 61
 //-------------------------------------
 
 <control>
