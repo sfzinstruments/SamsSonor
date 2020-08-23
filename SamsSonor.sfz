@@ -34,8 +34,8 @@
 <control>
 default_path=SamsSonor_samples/
 
-label_cc7=Vol
-label_cc10=Pan
+label_cc7=Master Vol
+label_cc10=Master Pan
 label_cc20=Kick
 label_cc21=Snare
 label_cc22=TomHigh
