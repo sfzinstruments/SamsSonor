@@ -34,6 +34,8 @@
 <control>
 default_path=SamsSonor_samples/
 
+label_cc7=Vol
+label_cc10=Pan
 label_cc20=Kick
 label_cc21=Snare
 label_cc22=TomHigh
@@ -49,6 +51,8 @@ label_cc31=Pan Hihat
 label_cc32=Pan Ride
 label_cc33=Pan Crash
 label_cc98=Tightness
+set_cc7=100
+set_hdcc10=0.5
 set_hdcc20=0.5
 set_hdcc21=0.5
 set_hdcc22=0.5
@@ -68,6 +72,10 @@ set_hdcc98=1
 ///////////////////////////////////////////////////////////////////////////////////////
 <global>
 loop_mode=one_shot
+amplitude_oncc7=100
+amplitude_curvecc7=4
+pan_oncc10=100
+pan_curvecc10=1
 amp_veltrack=99
 
 //================================================
@@ -233,21 +241,6 @@ pan_curvecc31=1
 note_polyphony=3
 off_time=0.3
 
-//-------------------------------------
-<group>
-end=-1
-sample=*silence
-<region> key=$KEY_HH_CL group=8
-<region> key=$KEY_HH_CL group=10
-<region> key=$KEY_HH_CL group=12
-<region> key=$KEY_HH_PD group=8
-<region> key=$KEY_HH_PD group=10
-<region> key=$KEY_HH_PD group=12
-<region> key=$KEY_HH_HO group=10
-<region> key=$KEY_HH_HO group=12
-<region> key=$KEY_HH_OT group=12
-//-------------------------------------
-
 <group>
 key=$KEY_HH_CL
 group=6
@@ -311,6 +304,20 @@ group_label=Open Tip
 <region> region_label=V02 sample=HHOpenTip#1.aif lovel=81 hivel=99 amp_velcurve_99=1 offset_oncc98=206
 <region> region_label=V03 sample=HHOpenTip#2.aif lovel=100 hivel=115 amp_velcurve_115=1 offset_oncc98=232
 <region> region_label=V04 sample=HHOpenTip#3.aif lovel=116 hivel=127 offset_oncc98=230
+
+//-------------------------------------
+<group>
+end=-1
+sample=*silence
+<region> key=$KEY_HH_CL group=8
+<region> key=$KEY_HH_CL group=10
+<region> key=$KEY_HH_CL group=12
+<region> key=$KEY_HH_PD group=8
+<region> key=$KEY_HH_PD group=10
+<region> key=$KEY_HH_PD group=12
+<region> key=$KEY_HH_HO group=10
+<region> key=$KEY_HH_HO group=12
+<region> key=$KEY_HH_OT group=12
 
 //================================================
 <master>
