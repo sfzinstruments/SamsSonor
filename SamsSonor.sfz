@@ -32,7 +32,7 @@
 //-------------------------------------
 
 <control>
-default_path=SamsSonor_samples/
+default_path=Samples/
 
 label_cc7=Master Vol
 label_cc10=Master Pan
@@ -91,14 +91,14 @@ group=1
 <group>
 key=$KEY_KICK
 group_label=Center
-<region> region_label=V01 sample=KickSamples.aif lovel=1 hivel=30 amp_velcurve_30=1 offset_oncc98=1070
-<region> region_label=V02 sample=KickSamples#1.aif lovel=31 hivel=45 amp_velcurve_45=1 offset_oncc98=546
-<region> region_label=V03 sample=KickSamples#2.aif lovel=46 hivel=55 amp_velcurve_55=1 offset_oncc98=306
-<region> region_label=V04 sample=KickSamples#3.aif lovel=56 hivel=69 amp_velcurve_69=1 offset_oncc98=420
-<region> region_label=V05 sample=KickSamples#4.aif lovel=70 hivel=90 amp_velcurve_90=1 offset_oncc98=384
-<region> region_label=V06 sample=KickSamples#5.aif lovel=91 hivel=100 amp_velcurve_100=1 offset_oncc98=912
-<region> region_label=V07 sample=KickSamples#6.aif lovel=101 hivel=111 amp_velcurve_111=1 offset_oncc98=513
-<region> region_label=V08 sample=KickSamples#7.aif lovel=112 hivel=127 offset_oncc98=450
+<region> region_label=V01 sample=KickSamples.flac lovel=1 hivel=30 amp_velcurve_30=1 offset_oncc98=1070
+<region> region_label=V02 sample=KickSamples#1.flac lovel=31 hivel=45 amp_velcurve_45=1 offset_oncc98=546
+<region> region_label=V03 sample=KickSamples#2.flac lovel=46 hivel=55 amp_velcurve_55=1 offset_oncc98=306
+<region> region_label=V04 sample=KickSamples#3.flac lovel=56 hivel=69 amp_velcurve_69=1 offset_oncc98=420
+<region> region_label=V05 sample=KickSamples#4.flac lovel=70 hivel=90 amp_velcurve_90=1 offset_oncc98=384
+<region> region_label=V06 sample=KickSamples#5.flac lovel=91 hivel=100 amp_velcurve_100=1 offset_oncc98=912
+<region> region_label=V07 sample=KickSamples#6.flac lovel=101 hivel=111 amp_velcurve_111=1 offset_oncc98=513
+<region> region_label=V08 sample=KickSamples#7.flac lovel=112 hivel=127 offset_oncc98=450
 
 //================================================
 <master>
@@ -114,70 +114,70 @@ group=2
 key=$KEY_SN_LH
 group_volume=-3.8
 group_label=Left Hand
-<region> region_label=V01 sample=SnareLeftHand.aif lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=655
-<region> region_label=V02 sample=SnareLeftHand#1.aif lovel=51 hivel=60 amp_velcurve_60=1 offset_oncc98=713
-<region> region_label=V03 sample=SnareLeftHand#2.aif lovel=61 hivel=70 amp_velcurve_70=1 offset_oncc98=214
-<region> region_label=V04 sample=SnareLeftHand#3.aif lovel=71 hivel=80 amp_velcurve_80=1 offset_oncc98=612
-<region> region_label=V05 sample=SnareLeftHand#4.aif lovel=81 hivel=90 amp_velcurve_90=1 offset_oncc98=918
-<region> region_label=V06 sample=SnareLeftHand#5.aif lovel=91 hivel=100 amp_velcurve_100=1 offset_oncc98=577
-<region> region_label=V07 sample=SnareLeftHand#6.aif lovel=101 hivel=107 amp_velcurve_107=1 offset_oncc98=458
-<region> region_label=V08 sample=SnareLeftHand#7.aif lovel=108 hivel=115 amp_velcurve_115=1 offset_oncc98=662
-<region> region_label=V09 sample=SnareLeftHand#8.aif lovel=116 hivel=120 amp_velcurve_120=1 offset_oncc98=327
-<region> region_label=V10 sample=SnareLeftHand#9.aif lovel=121 hivel=127 offset_oncc98=814
+<region> region_label=V01 sample=SnareLeftHand.flac lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=655
+<region> region_label=V02 sample=SnareLeftHand#1.flac lovel=51 hivel=60 amp_velcurve_60=1 offset_oncc98=713
+<region> region_label=V03 sample=SnareLeftHand#2.flac lovel=61 hivel=70 amp_velcurve_70=1 offset_oncc98=214
+<region> region_label=V04 sample=SnareLeftHand#3.flac lovel=71 hivel=80 amp_velcurve_80=1 offset_oncc98=612
+<region> region_label=V05 sample=SnareLeftHand#4.flac lovel=81 hivel=90 amp_velcurve_90=1 offset_oncc98=918
+<region> region_label=V06 sample=SnareLeftHand#5.flac lovel=91 hivel=100 amp_velcurve_100=1 offset_oncc98=577
+<region> region_label=V07 sample=SnareLeftHand#6.flac lovel=101 hivel=107 amp_velcurve_107=1 offset_oncc98=458
+<region> region_label=V08 sample=SnareLeftHand#7.flac lovel=108 hivel=115 amp_velcurve_115=1 offset_oncc98=662
+<region> region_label=V09 sample=SnareLeftHand#8.flac lovel=116 hivel=120 amp_velcurve_120=1 offset_oncc98=327
+<region> region_label=V10 sample=SnareLeftHand#9.flac lovel=121 hivel=127 offset_oncc98=814
 
 <group>
 key=$KEY_SN_RH
 group_volume=-3.8
 group_label=Right Hand
-<region> region_label=V01 sample=SnareRightHand.aif lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=216
-<region> region_label=V02 sample=SnareRightHand#1.aif lovel=51 hivel=60 amp_velcurve_60=1 offset_oncc98=165
-<region> region_label=V03 sample=SnareRightHand#2.aif lovel=61 hivel=70 amp_velcurve_70=1 offset_oncc98=221
-<region> region_label=V04 sample=SnareRightHand#3.aif lovel=71 hivel=80 amp_velcurve_80=1 offset_oncc98=445
-<region> region_label=V05 sample=SnareRightHand#4.aif lovel=81 hivel=90 amp_velcurve_90=1 offset_oncc98=338
-<region> region_label=V06 sample=SnareRightHand#5.aif lovel=91 hivel=100 amp_velcurve_100=1 offset_oncc98=442
-<region> region_label=V07 sample=SnareRightHand#7.aif lovel=101 hivel=107 amp_velcurve_107=1 offset_oncc98=639
-<region> region_label=V08 sample=SnareRightHand#6.aif lovel=108 hivel=115 amp_velcurve_115=1 offset_oncc98=452
-<region> region_label=V09 sample=SnareRightHand#9.aif lovel=116 hivel=120 amp_velcurve_120=1 offset_oncc98=738
-<region> region_label=V10 sample=SnareRightHand#8.aif lovel=121 hivel=127 offset_oncc98=342
+<region> region_label=V01 sample=SnareRightHand.flac lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=216
+<region> region_label=V02 sample=SnareRightHand#1.flac lovel=51 hivel=60 amp_velcurve_60=1 offset_oncc98=165
+<region> region_label=V03 sample=SnareRightHand#2.flac lovel=61 hivel=70 amp_velcurve_70=1 offset_oncc98=221
+<region> region_label=V04 sample=SnareRightHand#3.flac lovel=71 hivel=80 amp_velcurve_80=1 offset_oncc98=445
+<region> region_label=V05 sample=SnareRightHand#4.flac lovel=81 hivel=90 amp_velcurve_90=1 offset_oncc98=338
+<region> region_label=V06 sample=SnareRightHand#5.flac lovel=91 hivel=100 amp_velcurve_100=1 offset_oncc98=442
+<region> region_label=V07 sample=SnareRightHand#7.flac lovel=101 hivel=107 amp_velcurve_107=1 offset_oncc98=639
+<region> region_label=V08 sample=SnareRightHand#6.flac lovel=108 hivel=115 amp_velcurve_115=1 offset_oncc98=452
+<region> region_label=V09 sample=SnareRightHand#9.flac lovel=116 hivel=120 amp_velcurve_120=1 offset_oncc98=738
+<region> region_label=V10 sample=SnareRightHand#8.flac lovel=121 hivel=127 offset_oncc98=342
 
 <group>
 key=$KEY_SN_CT
 group_volume=-3.8
 group_label=Center
-<region> region_label=V01 sample=SnareSamples#1.aif lovel=1 hivel=33 amp_velcurve_33=1 offset_oncc98=466
-<region> region_label=V02 sample=SnareSamples#2.aif lovel=34 hivel=44 amp_velcurve_44=1 offset_oncc98=247
-<region> region_label=V03 sample=SnareSamples#3.aif lovel=45 hivel=65 amp_velcurve_65=1 offset_oncc98=557
-<region> region_label=V04 sample=SnareSamples#4.aif lovel=66 hivel=77 amp_velcurve_77=1 offset_oncc98=456
-<region> region_label=V05 sample=SnareSamples#5.aif lovel=78 hivel=85 amp_velcurve_85=1 offset_oncc98=627
-<region> region_label=V06 sample=SnareSamples#6.aif lovel=86 hivel=96 amp_velcurve_96=1 offset_oncc98=463
-<region> region_label=V07 sample=SnareSamples#7.aif lovel=97 hivel=107 amp_velcurve_107=1 offset_oncc98=520
-<region> region_label=V08 sample=SnareSamples#8.aif lovel=108 hivel=127 offset_oncc98=757
+<region> region_label=V01 sample=SnareSamples#1.flac lovel=1 hivel=33 amp_velcurve_33=1 offset_oncc98=466
+<region> region_label=V02 sample=SnareSamples#2.flac lovel=34 hivel=44 amp_velcurve_44=1 offset_oncc98=247
+<region> region_label=V03 sample=SnareSamples#3.flac lovel=45 hivel=65 amp_velcurve_65=1 offset_oncc98=557
+<region> region_label=V04 sample=SnareSamples#4.flac lovel=66 hivel=77 amp_velcurve_77=1 offset_oncc98=456
+<region> region_label=V05 sample=SnareSamples#5.flac lovel=78 hivel=85 amp_velcurve_85=1 offset_oncc98=627
+<region> region_label=V06 sample=SnareSamples#6.flac lovel=86 hivel=96 amp_velcurve_96=1 offset_oncc98=463
+<region> region_label=V07 sample=SnareSamples#7.flac lovel=97 hivel=107 amp_velcurve_107=1 offset_oncc98=520
+<region> region_label=V08 sample=SnareSamples#8.flac lovel=108 hivel=127 offset_oncc98=757
 
 <group>
 key=$KEY_SN_RS
 group_volume=-0.4
 group_label=Rimshot
-<region> region_label=V01 sample=SnareSamples#9.aif lovel=1 hivel=127 offset_oncc98=504
+<region> region_label=V01 sample=SnareSamples#9.flac lovel=1 hivel=127 offset_oncc98=504
 
 <group>
 key=$KEY_SN_OL
 group_volume=-16
 group_label=Off Left
-<region> region_label=V01 sample=SnareOffLeft.aif lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=600
-<region> region_label=V02 sample=SnareOffLeft#1.aif lovel=51 hivel=70 amp_velcurve_70=1 offset_oncc98=977
-<region> region_label=V03 sample=SnareOffLeft#2.aif lovel=71 hivel=90 amp_velcurve_90=1 offset_oncc98=740
-<region> region_label=V04 sample=SnareOffLeft#3.aif lovel=91 hivel=110 amp_velcurve_110=1 offset_oncc98=561
-<region> region_label=V05 sample=SnareOffLeft#4.aif lovel=111 hivel=127 offset_oncc98=385
+<region> region_label=V01 sample=SnareOffLeft.flac lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=600
+<region> region_label=V02 sample=SnareOffLeft#1.flac lovel=51 hivel=70 amp_velcurve_70=1 offset_oncc98=977
+<region> region_label=V03 sample=SnareOffLeft#2.flac lovel=71 hivel=90 amp_velcurve_90=1 offset_oncc98=740
+<region> region_label=V04 sample=SnareOffLeft#3.flac lovel=91 hivel=110 amp_velcurve_110=1 offset_oncc98=561
+<region> region_label=V05 sample=SnareOffLeft#4.flac lovel=111 hivel=127 offset_oncc98=385
 
 <group>
 key=$KEY_SN_OR
 group_volume=-16
 group_label=Off Right
-<region> region_label=V01 sample=SnareOffRight.aif lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=387
-<region> region_label=V02 sample=SnareOffRight#1.aif lovel=51 hivel=70 amp_velcurve_70=1 offset_oncc98=712
-<region> region_label=V03 sample=SnareOffRight#2.aif lovel=71 hivel=90 amp_velcurve_90=1 offset_oncc98=645
-<region> region_label=V04 sample=SnareOffRight#3.aif lovel=91 hivel=110 amp_velcurve_110=1 offset_oncc98=915
-<region> region_label=V05 sample=SnareOffRight#4.aif lovel=111 hivel=127 offset_oncc98=354
+<region> region_label=V01 sample=SnareOffRight.flac lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=387
+<region> region_label=V02 sample=SnareOffRight#1.flac lovel=51 hivel=70 amp_velcurve_70=1 offset_oncc98=712
+<region> region_label=V03 sample=SnareOffRight#2.flac lovel=71 hivel=90 amp_velcurve_90=1 offset_oncc98=645
+<region> region_label=V04 sample=SnareOffRight#3.flac lovel=91 hivel=110 amp_velcurve_110=1 offset_oncc98=915
+<region> region_label=V05 sample=SnareOffRight#4.flac lovel=111 hivel=127 offset_oncc98=354
 
 //================================================
 <master>
@@ -193,22 +193,22 @@ key=$KEY_TM_H
 group=3
 group_volume=-4.5
 group_label=Center
-<region> region_label=V01 sample=TomHigh.aif lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=324
-<region> region_label=V02 sample=TomHigh#1.aif lovel=61 hivel=85 amp_velcurve_85=1 offset_oncc98=462
-<region> region_label=V03 sample=TomHigh#2.aif lovel=86 hivel=105 amp_velcurve_105=1 offset_oncc98=492
-<region> region_label=V04 sample=TomHigh#3.aif lovel=106 hivel=110 amp_velcurve_110=1 offset_oncc98=420
-<region> region_label=V05 sample=TomHigh#4.aif lovel=111 hivel=127 offset_oncc98=501
+<region> region_label=V01 sample=TomHigh.flac lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=324
+<region> region_label=V02 sample=TomHigh#1.flac lovel=61 hivel=85 amp_velcurve_85=1 offset_oncc98=462
+<region> region_label=V03 sample=TomHigh#2.flac lovel=86 hivel=105 amp_velcurve_105=1 offset_oncc98=492
+<region> region_label=V04 sample=TomHigh#3.flac lovel=106 hivel=110 amp_velcurve_110=1 offset_oncc98=420
+<region> region_label=V05 sample=TomHigh#4.flac lovel=111 hivel=127 offset_oncc98=501
 
 <group>
 key=$KEY_TM_C
 group=4
 group_volume=-11.1
 group_label=Clicks
-<region> region_label=V01 sample=TomClicks.aif lovel=1 hivel=70 amp_velcurve_70=1 offset_oncc98=324
-<region> region_label=V02 sample=TomClicks#1.aif lovel=71 hivel=85 amp_velcurve_85=1 offset_oncc98=286
-<region> region_label=V03 sample=TomClicks#2.aif lovel=86 hivel=105 amp_velcurve_105=1 offset_oncc98=646
-<region> region_label=V04 sample=TomClicks#3.aif lovel=106 hivel=115 amp_velcurve_115=1 offset_oncc98=446
-<region> region_label=V05 sample=TomClicks#4.aif lovel=116 hivel=127 offset_oncc98=278
+<region> region_label=V01 sample=TomClicks.flac lovel=1 hivel=70 amp_velcurve_70=1 offset_oncc98=324
+<region> region_label=V02 sample=TomClicks#1.flac lovel=71 hivel=85 amp_velcurve_85=1 offset_oncc98=286
+<region> region_label=V03 sample=TomClicks#2.flac lovel=86 hivel=105 amp_velcurve_105=1 offset_oncc98=646
+<region> region_label=V04 sample=TomClicks#3.flac lovel=106 hivel=115 amp_velcurve_115=1 offset_oncc98=446
+<region> region_label=V05 sample=TomClicks#4.flac lovel=116 hivel=127 offset_oncc98=278
 
 //================================================
 <master>
@@ -224,13 +224,13 @@ group=5
 key=$KEY_TM_L
 group_volume=-6
 group_label=Center
-<region> region_label=V01 sample=TomLow.aif lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=223
-<region> region_label=V02 sample=TomLow#1.aif lovel=51 hivel=65 amp_velcurve_65=1 offset_oncc98=452
-<region> region_label=V03 sample=TomLow#2.aif lovel=66 hivel=80 amp_velcurve_80=1 offset_oncc98=381
-<region> region_label=V04 sample=TomLow#3.aif lovel=81 hivel=95 amp_velcurve_95=1 offset_oncc98=342
-<region> region_label=V05 sample=TomLow#4.aif lovel=96 hivel=105 amp_velcurve_105=1 offset_oncc98=311
-<region> region_label=V06 sample=TomLow#5.aif lovel=106 hivel=115 amp_velcurve_115=1 offset_oncc98=423
-<region> region_label=V07 sample=TomLow#6.aif lovel=116 hivel=127 offset_oncc98=493
+<region> region_label=V01 sample=TomLow.flac lovel=1 hivel=50 amp_velcurve_50=1 offset_oncc98=223
+<region> region_label=V02 sample=TomLow#1.flac lovel=51 hivel=65 amp_velcurve_65=1 offset_oncc98=452
+<region> region_label=V03 sample=TomLow#2.flac lovel=66 hivel=80 amp_velcurve_80=1 offset_oncc98=381
+<region> region_label=V04 sample=TomLow#3.flac lovel=81 hivel=95 amp_velcurve_95=1 offset_oncc98=342
+<region> region_label=V05 sample=TomLow#4.flac lovel=96 hivel=105 amp_velcurve_105=1 offset_oncc98=311
+<region> region_label=V06 sample=TomLow#5.flac lovel=106 hivel=115 amp_velcurve_115=1 offset_oncc98=423
+<region> region_label=V07 sample=TomLow#6.flac lovel=116 hivel=127 offset_oncc98=493
 
 //================================================
 <master>
@@ -246,26 +246,26 @@ key=$KEY_HH_CL
 group=6
 group_volume=-7.5
 group_label=Closed
-<region> region_label=V01 sample=HHClosed#1.aif lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=235
-<region> region_label=V02 sample=HHClosed.aif lovel=61 hivel=79 amp_velcurve_79=1 offset_oncc98=193
-<region> region_label=V03 sample=HHClosed#3.aif lovel=80 hivel=95 amp_velcurve_95=1 offset_oncc98=265
-<region> region_label=V04 sample=HHClosed#2.aif lovel=96 hivel=100 amp_velcurve_100=1 offset_oncc98=197
-<region> region_label=V05 sample=HHClosed#7.aif lovel=101 hivel=105 amp_velcurve_105=1 offset_oncc98=198
-<region> region_label=V06 sample=HHClosed#5.aif lovel=106 hivel=112 amp_velcurve_112=1 offset_oncc98=265
-<region> region_label=V07 sample=HHClosed#4.aif lovel=113 hivel=120 amp_velcurve_120=1 offset_oncc98=338
-<region> region_label=V08 sample=HHClosed#6.aif lovel=121 hivel=124 amp_velcurve_124=1 offset_oncc98=308
-<region> region_label=V09 sample=HHClosed#8.aif lovel=125 hivel=127 offset_oncc98=355
+<region> region_label=V01 sample=HHClosed#1.flac lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=235
+<region> region_label=V02 sample=HHClosed.flac lovel=61 hivel=79 amp_velcurve_79=1 offset_oncc98=193
+<region> region_label=V03 sample=HHClosed#3.flac lovel=80 hivel=95 amp_velcurve_95=1 offset_oncc98=265
+<region> region_label=V04 sample=HHClosed#2.flac lovel=96 hivel=100 amp_velcurve_100=1 offset_oncc98=197
+<region> region_label=V05 sample=HHClosed#7.flac lovel=101 hivel=105 amp_velcurve_105=1 offset_oncc98=198
+<region> region_label=V06 sample=HHClosed#5.flac lovel=106 hivel=112 amp_velcurve_112=1 offset_oncc98=265
+<region> region_label=V07 sample=HHClosed#4.flac lovel=113 hivel=120 amp_velcurve_120=1 offset_oncc98=338
+<region> region_label=V08 sample=HHClosed#6.flac lovel=121 hivel=124 amp_velcurve_124=1 offset_oncc98=308
+<region> region_label=V09 sample=HHClosed#8.flac lovel=125 hivel=127 offset_oncc98=355
 
 <group>
 key=$KEY_HH_PD
 group=6
 group_label=Pedal
-<region> region_label=V01 sample=HHPedal.aif lovel=1 hivel=50 amp_velcurve_50=1
-<region> region_label=V02 sample=HHPedal#1.aif lovel=51 hivel=70 amp_velcurve_70=1
-<region> region_label=V03 sample=HHPedal#2.aif lovel=71 hivel=90 amp_velcurve_90=1
-<region> region_label=V04 sample=HHPedal#3.aif lovel=91 hivel=110 amp_velcurve_110=1
-<region> region_label=V05 sample=HHPedal#4.aif lovel=111 hivel=119 amp_velcurve_119=1
-<region> region_label=V06 sample=HHPedal#5.aif lovel=120 hivel=127
+<region> region_label=V01 sample=HHPedal.flac lovel=1 hivel=50 amp_velcurve_50=1
+<region> region_label=V02 sample=HHPedal#1.flac lovel=51 hivel=70 amp_velcurve_70=1
+<region> region_label=V03 sample=HHPedal#2.flac lovel=71 hivel=90 amp_velcurve_90=1
+<region> region_label=V04 sample=HHPedal#3.flac lovel=91 hivel=110 amp_velcurve_110=1
+<region> region_label=V05 sample=HHPedal#4.flac lovel=111 hivel=119 amp_velcurve_119=1
+<region> region_label=V06 sample=HHPedal#5.flac lovel=120 hivel=127
 
 <group>
 key=$KEY_HH_OC
@@ -273,11 +273,11 @@ group=11
 off_by=12
 group_volume=-7.5
 group_label=Open Clang
-<region> region_label=V01 sample=HHOpenClang#3.aif lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=396
-<region> region_label=V02 sample=HHOpenClang#4.aif lovel=81 hivel=89 amp_velcurve_89=1 offset_oncc98=400
-<region> region_label=V03 sample=HHOpenClang#2.aif lovel=90 hivel=100 amp_velcurve_100=1 offset_oncc98=376
-<region> region_label=V04 sample=HHOpenClang.aif lovel=101 hivel=110 amp_velcurve_110=1 offset_oncc98=276
-<region> region_label=V05 sample=HHOpenClang#1.aif lovel=111 hivel=127 offset_oncc98=335
+<region> region_label=V01 sample=HHOpenClang#3.flac lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=396
+<region> region_label=V02 sample=HHOpenClang#4.flac lovel=81 hivel=89 amp_velcurve_89=1 offset_oncc98=400
+<region> region_label=V03 sample=HHOpenClang#2.flac lovel=90 hivel=100 amp_velcurve_100=1 offset_oncc98=376
+<region> region_label=V04 sample=HHOpenClang.flac lovel=101 hivel=110 amp_velcurve_110=1 offset_oncc98=276
+<region> region_label=V05 sample=HHOpenClang#1.flac lovel=111 hivel=127 offset_oncc98=335
 
 <group>
 key=$KEY_HH_HO
@@ -285,14 +285,14 @@ group=7
 off_by=8
 group_volume=-8.2
 group_label=Half Open
-<region> region_label=V01 sample=HHHalfOpen.aif lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=230
-<region> region_label=V02 sample=HHHalfOpen#1.aif lovel=61 hivel=85 amp_velcurve_85=1 offset_oncc98=238
-<region> region_label=V03 sample=HHHalfOpen#2.aif lovel=86 hivel=96 amp_velcurve_96=1 offset_oncc98=248
-<region> region_label=V04 sample=HHHalfOpen#4.aif lovel=97 hivel=105 amp_velcurve_105=1 offset_oncc98=287
-<region> region_label=V05 sample=HHHalfOpen#5.aif lovel=106 hivel=111 amp_velcurve_111=1 offset_oncc98=409
-<region> region_label=V06 sample=HHHalfOpen#3.aif lovel=112 hivel=118 amp_velcurve_118=1 offset_oncc98=419
-<region> region_label=V07 sample=HHHalfOpen#6.aif lovel=119 hivel=123 amp_velcurve_123=1 offset_oncc98=370
-<region> region_label=V08 sample=HHHalfOpen#7.aif lovel=124 hivel=127 offset_oncc98=1221
+<region> region_label=V01 sample=HHHalfOpen.flac lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=230
+<region> region_label=V02 sample=HHHalfOpen#1.flac lovel=61 hivel=85 amp_velcurve_85=1 offset_oncc98=238
+<region> region_label=V03 sample=HHHalfOpen#2.flac lovel=86 hivel=96 amp_velcurve_96=1 offset_oncc98=248
+<region> region_label=V04 sample=HHHalfOpen#4.flac lovel=97 hivel=105 amp_velcurve_105=1 offset_oncc98=287
+<region> region_label=V05 sample=HHHalfOpen#5.flac lovel=106 hivel=111 amp_velcurve_111=1 offset_oncc98=409
+<region> region_label=V06 sample=HHHalfOpen#3.flac lovel=112 hivel=118 amp_velcurve_118=1 offset_oncc98=419
+<region> region_label=V07 sample=HHHalfOpen#6.flac lovel=119 hivel=123 amp_velcurve_123=1 offset_oncc98=370
+<region> region_label=V08 sample=HHHalfOpen#7.flac lovel=124 hivel=127 offset_oncc98=1221
 
 <group>
 key=$KEY_HH_OT
@@ -300,10 +300,10 @@ group=9
 off_by=10
 group_volume=-2.6
 group_label=Open Tip
-<region> region_label=V01 sample=HHOpenTip.aif lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=226
-<region> region_label=V02 sample=HHOpenTip#1.aif lovel=81 hivel=99 amp_velcurve_99=1 offset_oncc98=206
-<region> region_label=V03 sample=HHOpenTip#2.aif lovel=100 hivel=115 amp_velcurve_115=1 offset_oncc98=232
-<region> region_label=V04 sample=HHOpenTip#3.aif lovel=116 hivel=127 offset_oncc98=230
+<region> region_label=V01 sample=HHOpenTip.flac lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=226
+<region> region_label=V02 sample=HHOpenTip#1.flac lovel=81 hivel=99 amp_velcurve_99=1 offset_oncc98=206
+<region> region_label=V03 sample=HHOpenTip#2.flac lovel=100 hivel=115 amp_velcurve_115=1 offset_oncc98=232
+<region> region_label=V04 sample=HHOpenTip#3.flac lovel=116 hivel=127 offset_oncc98=230
 
 //-------------------------------------
 <group>
@@ -334,11 +334,11 @@ group=13
 off_by=15
 group_volume=-13.4
 group_label=Tip
-<region> region_label=V01 sample=Ride.aif lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=474
-<region> region_label=V02 sample=Ride#1.aif lovel=61 hivel=81 amp_velcurve_81=1 offset_oncc98=444
-<region> region_label=V03 sample=Ride#2.aif lovel=82 hivel=95 amp_velcurve_95=1 offset_oncc98=553
-<region> region_label=V04 sample=Ride#3.aif lovel=96 hivel=110 amp_velcurve_110=1 offset_oncc98=367
-<region> region_label=V05 sample=Ride#4.aif lovel=111 hivel=127 offset_oncc98=459
+<region> region_label=V01 sample=Ride.flac lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=474
+<region> region_label=V02 sample=Ride#1.flac lovel=61 hivel=81 amp_velcurve_81=1 offset_oncc98=444
+<region> region_label=V03 sample=Ride#2.flac lovel=82 hivel=95 amp_velcurve_95=1 offset_oncc98=553
+<region> region_label=V04 sample=Ride#3.flac lovel=96 hivel=110 amp_velcurve_110=1 offset_oncc98=367
+<region> region_label=V05 sample=Ride#4.flac lovel=111 hivel=127 offset_oncc98=459
 
 <group>
 key=$KEY_RD_BL
@@ -346,10 +346,10 @@ group=14
 off_by=15
 group_volume=-4.6
 group_label=Bell
-<region> region_label=V01 sample=RideBell.aif lovel=1 hivel=70 amp_velcurve_70=1 offset_oncc98=596
-<region> region_label=V02 sample=RideBell#1.aif lovel=71 hivel=85 amp_velcurve_85=1 offset_oncc98=656
-<region> region_label=V03 sample=RideBell#2.aif lovel=86 hivel=105 amp_velcurve_105=1 offset_oncc98=623
-<region> region_label=V04 sample=RideBell#3.aif lovel=106 hivel=127 offset_oncc98=592
+<region> region_label=V01 sample=RideBell.flac lovel=1 hivel=70 amp_velcurve_70=1 offset_oncc98=596
+<region> region_label=V02 sample=RideBell#1.flac lovel=71 hivel=85 amp_velcurve_85=1 offset_oncc98=656
+<region> region_label=V03 sample=RideBell#2.flac lovel=86 hivel=105 amp_velcurve_105=1 offset_oncc98=623
+<region> region_label=V04 sample=RideBell#3.flac lovel=106 hivel=127 offset_oncc98=592
 
 <group>
 key=$CHK_RD
@@ -373,11 +373,11 @@ group=16
 off_by=18
 group_volume=-1.1
 group_label=Clang
-<region> region_label=V01 sample=CrashClang.aif lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=475
-<region> region_label=V02 sample=CrashClang#1.aif lovel=81 hivel=100 amp_velcurve_100=1 offset_oncc98=558
-<region> region_label=V03 sample=CrashClang#2.aif lovel=101 hivel=110 amp_velcurve_110=1 offset_oncc98=584
-<region> region_label=V04 sample=CrashClang#3.aif lovel=111 hivel=120 amp_velcurve_120=1 offset_oncc98=222
-<region> region_label=V05 sample=CrashClang#4.aif lovel=121 hivel=127 offset_oncc98=417
+<region> region_label=V01 sample=CrashClang.flac lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=475
+<region> region_label=V02 sample=CrashClang#1.flac lovel=81 hivel=100 amp_velcurve_100=1 offset_oncc98=558
+<region> region_label=V03 sample=CrashClang#2.flac lovel=101 hivel=110 amp_velcurve_110=1 offset_oncc98=584
+<region> region_label=V04 sample=CrashClang#3.flac lovel=111 hivel=120 amp_velcurve_120=1 offset_oncc98=222
+<region> region_label=V05 sample=CrashClang#4.flac lovel=121 hivel=127 offset_oncc98=417
 
 <group>
 key=$KEY_CR_TP
@@ -385,10 +385,10 @@ group=17
 off_by=18
 group_volume=-7.7
 group_label=Tip
-<region> region_label=V01 sample=CrashTip.aif lovel=1 hivel=70 amp_velcurve_70=1 offset_oncc98=452
-<region> region_label=V02 sample=CrashTip#1.aif lovel=71 hivel=95 amp_velcurve_95=1 offset_oncc98=624
-<region> region_label=V03 sample=CrashTip#2.aif lovel=96 hivel=110 amp_velcurve_110=1 offset_oncc98=646
-<region> region_label=V04 sample=CrashTip#3.aif lovel=111 hivel=127 offset_oncc98=455
+<region> region_label=V01 sample=CrashTip.flac lovel=1 hivel=70 amp_velcurve_70=1 offset_oncc98=452
+<region> region_label=V02 sample=CrashTip#1.flac lovel=71 hivel=95 amp_velcurve_95=1 offset_oncc98=624
+<region> region_label=V03 sample=CrashTip#2.flac lovel=96 hivel=110 amp_velcurve_110=1 offset_oncc98=646
+<region> region_label=V04 sample=CrashTip#3.flac lovel=111 hivel=127 offset_oncc98=455
 
 <group>
 key=$CHK_CR
