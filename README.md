@@ -12,7 +12,7 @@ There is also a snare drum with snares off down below the kick at A-1 and G-0.
 
 > CC Share and share alike.
 
-Mapped by kinwie using sfz format v2 with ARIA extensions.
+Mapped by kinwie using sfz format v2 with ARIA extensions, converted to flac samples.
 
 ## License
 
