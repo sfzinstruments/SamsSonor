@@ -247,7 +247,8 @@ off_time=0.3
 
 <group>
 key=$KEY_HH_CL
-group=6
+group=7
+off_by=8
 group_volume=-7.5
 group_label=Closed
 <region> region_label=V01 sample=HHClosed#1.flac lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=235
@@ -273,8 +274,8 @@ group_label=Pedal
 
 <group>
 key=$KEY_HH_OC
-group=11
-off_by=12
+group=13
+off_by=14
 group_volume=-7.5
 group_label=Open Clang
 <region> region_label=V01 sample=HHOpenClang#3.flac lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=396
@@ -285,8 +286,8 @@ group_label=Open Clang
 
 <group>
 key=$KEY_HH_HO
-group=7
-off_by=8
+group=9
+off_by=10
 group_volume=-8.2
 group_label=Half Open
 <region> region_label=V01 sample=HHHalfOpen.flac lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=230
@@ -300,8 +301,8 @@ group_label=Half Open
 
 <group>
 key=$KEY_HH_OT
-group=9
-off_by=10
+group=11
+off_by=12
 group_volume=-2.6
 group_label=Open Tip
 <region> region_label=V01 sample=HHOpenTip.flac lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=226
@@ -313,15 +314,16 @@ group_label=Open Tip
 <group>
 end=-1
 sample=*silence
-<region> key=$KEY_HH_CL group=8
 <region> key=$KEY_HH_CL group=10
 <region> key=$KEY_HH_CL group=12
+<region> key=$KEY_HH_CL group=14
 <region> key=$KEY_HH_PD group=8
 <region> key=$KEY_HH_PD group=10
 <region> key=$KEY_HH_PD group=12
-<region> key=$KEY_HH_HO group=10
+<region> key=$KEY_HH_PD group=14
 <region> key=$KEY_HH_HO group=12
-<region> key=$KEY_HH_OT group=12
+<region> key=$KEY_HH_HO group=14
+<region> key=$KEY_HH_OT group=14
 
 //================================================
 <master>
@@ -336,8 +338,8 @@ off_time=0.5
 
 <group>
 key=$KEY_RD_TP
-group=13
-off_by=15
+group=15
+off_by=17
 group_volume=-13.4
 group_label=Tip
 <region> region_label=V01 sample=Ride.flac lovel=1 hivel=60 amp_velcurve_60=1 offset_oncc98=474
@@ -348,8 +350,8 @@ group_label=Tip
 
 <group>
 key=$KEY_RD_BL
-group=14
-off_by=15
+group=16
+off_by=17
 group_volume=-4.6
 group_label=Bell
 <region> region_label=V01 sample=RideBell.flac lovel=1 hivel=70 amp_velcurve_70=1 offset_oncc98=596
@@ -359,7 +361,7 @@ group_label=Bell
 
 <group>
 key=$CHK_RD
-group=15
+group=17
 ampeg_sustain=0
 group_label=choke
 <region> sample=*silence
@@ -377,8 +379,8 @@ off_time=0.3
 
 <group>
 key=$KEY_CR_CL
-group=16
-off_by=18
+group=18
+off_by=20
 group_volume=-1.1
 group_label=Clang
 <region> region_label=V01 sample=CrashClang.flac lovel=1 hivel=80 amp_velcurve_80=1 offset_oncc98=475
@@ -389,8 +391,8 @@ group_label=Clang
 
 <group>
 key=$KEY_CR_TP
-group=17
-off_by=18
+group=19
+off_by=20
 group_volume=-7.7
 group_label=Tip
 <region> region_label=V01 sample=CrashTip.flac lovel=1 hivel=70 amp_velcurve_70=1 offset_oncc98=452
@@ -400,7 +402,7 @@ group_label=Tip
 
 <group>
 key=$CHK_CR
-group=18
+group=20
 ampeg_sustain=0
 group_label=choke
 <region> sample=*silence
